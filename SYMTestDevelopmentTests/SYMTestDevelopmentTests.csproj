@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SYMTestDevelopment\SYMTestDevelopment.csproj">
-      <Project>{366EEB6E-BA93-4B45-B999-898097DB34B1}</Project>
-      <Name>SYMTestDevelopment</Name>
+    <ProjectReference Include="..\Words\Words.csproj">
+      <Project>{0ff9afe8-993c-472a-9092-d3cfd4b5b14c}</Project>
+      <Name>Words</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
