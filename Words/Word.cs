@@ -20,7 +20,7 @@ namespace Words
 
         }
 
-        public int CountSpecificCharacters(Word word)
+        public int CountSpecificCharacters(string character)
         {
 
         }

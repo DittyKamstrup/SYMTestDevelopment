@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Words;
 
 namespace SYMTestDevelopment.Tests
 {
@@ -54,7 +55,7 @@ namespace SYMTestDevelopment.Tests
             //Arrange
             Word mysterious = new Word("mysterious");
             //Act
-            var result = mysterious.CountAllCharacters();
+            var result = mysterious.CountAllCharacters(mysterious);
             //Assert
             Assert.AreEqual(2, result);
         }
